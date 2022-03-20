@@ -27,6 +27,7 @@ function paintToDo(newTodo) {
     span.style.color = "black"
     span.style.fontFamily = `'Bebas Neue', cursive`;
     span.style.marginRight = "10px";
+    button.style.border = "none";
     button.addEventListener("click",deleteToDo);
     li.appendChild(span);
     //span을 li에 넣어준다.

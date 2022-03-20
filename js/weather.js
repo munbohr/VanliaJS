@@ -20,7 +20,7 @@ function onGeoSucces(position) {
 
 
 function onGeoError() {
-   alert("error 404: can't find you. NO weather for you. ");
+   alert("error 401: can't find you. NO weather for you :( ");
 }
 
 navigator.geolocation.getCurrentPosition(onGeoSucces,onGeoError);
